@@ -1,0 +1,6 @@
+basicConstraints=critical,CA:FALSE
+keyUsage=critical,digitalSignature
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid,issuer
+subjectAltName=DNS:rajujha.dev,DNS:*.rajujha.dev
+authorityInfoAccess=caIssuers;URI:https://rajujha.dev/pki/ca.crt
